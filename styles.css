@@ -168,6 +168,7 @@ body {
 }
 
 .our-menu {
+
   position: absolute;
   color: rgb(0, 0, 0);
   margin-left: 112px;
@@ -445,6 +446,10 @@ body {
 /* FOOTER STARTS FROM HERE */
 
 .footer-container {
+   
+
+
+
   background-color: #323232;
   width: 1519px;
   height: 303px;
@@ -478,6 +483,16 @@ body {
 
 
 }
+
+ul li:not([class]) {
+  filter: blur(.4px);
+  color: rgb(202, 202, 202);
+}
+
+
+
+
+
 
 ul,
 ol {
